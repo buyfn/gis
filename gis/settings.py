@@ -52,13 +52,13 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-DOWNLOADER_MIDDLEWARES = {
-    # 'gis.middlewares.MyCustomDownloaderMiddleware': 543,
-    'scrapy_proxies.RandomProxy': 100,
-}
+# DOWNLOADER_MIDDLEWARES = {
+#     'gis.middlewares.MyCustomDownloaderMiddleware': 543,
+#     'scrapy_proxies.RandomProxy': 100,
+# }
 
-PROXY_MODE = 0
-PROXY_LIST = 'proxy_list.txt'
+# PROXY_MODE = 0
+# PROXY_LIST = 'proxy_list.txt'
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
